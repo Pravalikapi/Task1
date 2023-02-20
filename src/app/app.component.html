@@ -1,0 +1,10 @@
+<br>
+<form style="width: 30%;" class="page">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Login as</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter UserType" #input>
+    </div>
+    <button type="submit" class="button" (click)=" onSubmit(input.value)">Submit</button>
+  </form>
+  
+  <router-outlet></router-outlet>
